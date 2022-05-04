@@ -1,0 +1,51 @@
+html {
+  background: rgb(227,91,0);
+  background: linear-gradient(90deg, rgba(227,91,0,1) 26%, rgba(255,0,93,1) 100%);
+  color: white;
+  font-family: Courier;
+  font-size: 0.9rem;
+}
+
+li {
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+a {
+  color: yellow;
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+p {
+  text-decoration: underline;
+}
+
+.left {
+  text-align: left;
+  border: 1px white solid;
+}
+
+.right {
+  text-align: right;
+  border: 2px green dotted;
+}
+
+#circle {
+  width: 100px;
+  height: 100px;
+  background: red;
+  border-radius: 50%
+}
+
+.element {
+  shape-outside: ellipse(150px 230px at 40% 50%);
+        clip-path: ellipse(120px 200px at 40% 50%);
+        width: 300px;
+        height: 500px;
+        float: left;
+        background-color: blue;
+}
